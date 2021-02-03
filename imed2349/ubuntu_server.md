@@ -10,7 +10,7 @@ Make sure you download this to your Downloads folder on the Mac.
 
 ## Install Ubuntu Server on VirtualBox
 
-Follow the installation instructions in the VirtualBox Installation Guide to select the ISO for Ubuntu Server and initiate the installation process.
+Follow the installation instructions in the VirtualBox Installation Guide to select the ISO for Ubuntu Server and initiate the installation process.  The screenshots below were taken on a macOS, but the contents of the screenshots will be the same on a Windows PC.
 
 When it asks you to select your language use the up and down arrow keys and make sure English is selected.  Then hit Enter.
 
@@ -101,7 +101,7 @@ Once it has finished running, type `sudo apt-get upgrade -y` and hit Enter.
 After it has run, type `sudo apt-get dist-upgrade -y` and hit Enter.
 
 ## Get IP Address
-
+sud
 Next, we need to get the IP address for our virtual machine so we can remote into our Ubuntu Server VM.
 
 Before we can get the IP address, we need to install some networking tools.  Type `sudo apt install net-tools` and hit Enter.
