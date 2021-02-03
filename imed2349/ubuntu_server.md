@@ -124,7 +124,7 @@ After it has finished running, we need to set some settings for this.  To begin 
 
 In the editor, you will need to enter the following information:
 
-```
+```shell
   [DEFAULT]
   # Ban hosts for one hour:
   bantime = 3600
@@ -144,7 +144,7 @@ To verify that the service is running, we can use the fail2ban-client.  Type the
 
 You should see the output:
 
-```
+```shell
   Status
   |- Number of jail:      1
   `- Jail list:   sshd

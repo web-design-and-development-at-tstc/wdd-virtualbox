@@ -22,7 +22,7 @@ In subsequent times logging in remotely to the server, you will enter `ssh USERN
 
 To end the remote connection, type the word `exit` in the Terminal window and hit enter.  You'll see the message similar to below upong successful logout:
 
-```
+```shell
   logout
   Connection to 192.168.56.4 closed.
 ```

@@ -8,7 +8,7 @@ Next, we'll download and install vsftpd by running the command `sudo apt install
 
 Once it has installed, we can check the status to make sure vsftpd is running by running the command `sudo service vsftpd status`.  You should see a message similar to the one below if it is running correctly:
 
-```
+```shell
   ● vsftpd.service - vsftpd FTP server
        Loaded: loaded (/lib/systemd/system/vsftpd.service; enabled; vendor preset>
        Active: active (running) since Mon 2021-02-01 12:35:34 CST; 20s ago

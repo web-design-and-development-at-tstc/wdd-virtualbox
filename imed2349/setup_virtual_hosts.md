@@ -85,7 +85,7 @@ Now that we have the two virtual host files in place, we need to enable them.  R
 
 First, run the command `sudo a2ensite jdoe.test.conf`  You should see the following message:
 
-```
+```shell
   Enabling site jdoe.test.
   To activate the new configuration, you need to run:
     systemctl reload apache2
@@ -93,7 +93,7 @@ First, run the command `sudo a2ensite jdoe.test.conf`  You should see the follow
 
 Next, run the command `sudo a2ensite food_truck.test.conf`  You should see the following message:
 
-```
+```shell
   Enabling site food_truck.test.
   To activate the new configuration, you need to run:
     systemctl reload apache2
@@ -113,7 +113,7 @@ To edit the hosts file on a Mac, open a new Terminal window and run the command 
 
 Once the hosts file is open, enter the following two lines into the file replacing the `IP_ADDRESS` with the IP address of your virutal machine web server and the domains with your own domains.
 
-```
+```shell
   IP_ADDRESS jdoe.test
   IP_ADDRESS food_truck.test
 ```
@@ -134,7 +134,7 @@ Open the file called __hosts__.
 
 Once the hosts file is open, enter the following two lines into the file replacing the `IP_ADDRESS` with the IP address of your virtual machine web server and the domains with your own domains.
 
-```
+```shell
   IP_ADDRESS jdoe.test
   IP_ADDRESS food_truck.test
 ```
@@ -151,7 +151,7 @@ Open the file called __hosts__.
 
 Once the hosts file is open, enter the following two lines into the file replacing the `IP_ADDRESS` with the IP address of your virtual machine web server and the domains with your own domains.
 
-```
+```shell
   IP_ADDRESS jdoe.test
   IP_ADDRESS food_truck.test
 ```
