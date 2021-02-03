@@ -36,7 +36,7 @@ The Virtual Host files are used to tell Apache how to respond to various domain 
 
 To create a virtual hosts configuration file, run the command `sudo nano /etc/apache2/sites-available/jdoe.test.conf`
 
-Enter the information below making sure to replace each instance of jdoe.test with your personal test domain (there are seven occurences of the domain name).  You should be able to use the keyboard copy and paste commands to copy the block of directives below and paste it into your CLI while you are in the nano editor so you don't have to try and write it all out.
+Enter the information below making sure to replace each instance of jdoe.test with your personal test domain (there are seven occurences of the domain name).  You should be able to use the keyboard copy and paste commands to copy the block of directives below and paste it into your CLI while you are in the nano editor so you don't have to try and write it all out.  However, if you aren't able to copy/paste double check your work before you save and proceed with the setup of virtual hosts.
 
 ~~~
 <VirtualHost *:80>
@@ -126,7 +126,7 @@ Then run the command, `sudo dscacheutil -flushcache`
 
 Click on the Start windows icon to open the menu and type `Notepad`.
 
-Right click on __Notepad__ and choose __Run as administrator__. If you are prompted for an administrator password or for a confirmation, type the password of click __Allow__ or __Yes__.
+Right click on __Notepad__ and choose __Run as administrator__. If you are prompted for an administrator password or for a confirmation, type the password and click __Allow__ or __Yes__.
 
 In Notepad, click __File__ and __Open__ then navigate to the hosts file.  The file is located in `C:\Windows\System32\drivers\etc`.  If the folder appears blank, click on the file extension dropdown where it says __Text Documents (*.txt)__ and change it to __All Files (*.*)__.
 
@@ -157,3 +157,13 @@ Once the hosts file is open, enter the following two lines into the file replaci
 ```
 
 Once you have made the necessary changes, click __File__ and __Save__.
+
+## Test Virutal Hosts
+
+Once you have enabled the hosts files on the VM Ubuntu Server and edited your hosts file on your personal Mac or Windows computer, it is time to test if your server and host files are working as intended.
+
+Open your preferred browser and enter into the address bar `jdoe.test` and hit enter.  You should see your name displayed in both the Tab and in the browser viewport.
+
+Repeat with entering into the address bar `food_truck.test` and hit Enter.  You should see the name of your food truck/restraunt in the Tab and in the browser viewport.
+
+If you both sites load as intended, great job!  You just installed and set up a fully functioning web server.
