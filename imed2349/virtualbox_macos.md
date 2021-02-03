@@ -1,4 +1,4 @@
-# VirtualBox Installation Guide
+# VirtualBox Installation Guide - macOS
 
 [VirtualBox](https://www.virtualbox.org/) is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License (GPL) version 2. --VirtualBox.Org
 
@@ -102,7 +102,7 @@ Now you'll see the File location and size dialog box.  Keep the default file loc
 
 VirtualBox will finish creating the virtual machine and will display it in the VirtualBox Manager window when it is created.  Please note that this Virtual Machine is an empty shell. It does not have an operating system on it. You will need an ISO to install the OS on the VM.
 
-![VirtualBox File location and size dialog box](https://inspiringweb.org/vm_images/macOS_Ubuntu_VM.png)
+![VirtualBox Manager showing Ubuntu Server VM](https://inspiringweb.org/vm_images/macOS_Ubuntu_VM.png)
 
 ## Virtual Machine Settings
 
@@ -122,7 +122,7 @@ Next, make sure you have the VM selected and click on Settings (Yellow Gear Icon
 
 On Adapter 1, make sure the Attached to: drop down menu is set to NAT.
 
-<div style="text-align: center;">![Network Setting Screen for Adapter 1](https://inspiringweb.org/vm_images/Network_Adapter_1.png)
+![Network Setting Screen for Adapter 1](https://inspiringweb.org/vm_images/Network_Adapter_1.png)
 
 Then click on Adapter 2.  Click the checkbox for Enable Network Adapter.  Than in the Attached to: drop down menu, choose Host-only Adapter.  For the Name: drop down menu, make sure vboxnet0 is chosen.  Then click OK.
 
