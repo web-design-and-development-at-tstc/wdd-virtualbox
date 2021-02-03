@@ -1,3 +1,5 @@
+# Install PHP Module
+
 ## Install Apache Utilities
 
 First, we are going to make sure that some useful Apache utilities are installed.  Run the command, `sudo apt install apache2-utils software-properties-common`.  These may already be installed and at the latest version. If not, let them install before continuing.

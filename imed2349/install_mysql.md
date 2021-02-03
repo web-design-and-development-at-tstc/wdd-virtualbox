@@ -1,4 +1,4 @@
-## Install MySQL Server
+# Install MySQL Server
 
 To install the MySQL Server, type the command `sudo apt-get install mysql-server` and hit Enter.
 

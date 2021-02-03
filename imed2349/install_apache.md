@@ -1,4 +1,4 @@
-## Install Apache on Ubuntu
+# Install Apache on Ubuntu
 
 It is always a good idea to get in the habit of updating the package manager before installing new software.  Open the terminal and run the command `sudo apt-get update` and let it finish updating.
 
