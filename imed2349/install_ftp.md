@@ -28,7 +28,7 @@ To be able to log in to FTP, we need to create a user.
 
 To create the user, `ftpuser` run the command `sudo adduser ftpuser`
 
-It will ask you to enter new UNIX password.  For our purposes, let's use the password `WDDrules21`.  Like with other passwords, you won't see any characters on screen.  Once you have typed in the password, hit Enter.
+It will ask you to enter new UNIX password.  Enter a password here, making sure to make note of it.  Like with other passwords, you won't see any characters on screen.  Once you have typed in the password, hit Enter.
 
 It will then ask you to retype the password.  After you have retyped it, hit Enter.
 
