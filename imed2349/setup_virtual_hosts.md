@@ -36,7 +36,7 @@ The Virtual Host files are used to tell Apache how to respond to various domain 
 
 To create a virtual hosts configuration file, run the command `sudo nano /etc/apache2/sites-available/jdoe.test.conf`
 
-Enter the information below making sure to replace each instance of jdoe.test with your personal test domain (there are seven occurences of the domain name).  You should be able to use the keyboard copy and paste commands to copy the block of directives below and paste it into your CLI while you are in the nano editor so you don't have to try and write it all out.  However, if you aren't able to copy/paste double check your work before you save and proceed with the setup of virtual hosts.
+Enter the information below making sure to replace each instance of jdoe.test with your personal test domain (there are seven occurrences of the domain name).  You should be able to use the keyboard copy and paste commands to copy the block of directives below and paste it into your CLI while you are in the nano editor so you don't have to try and write it all out.  However, if you aren't able to copy/paste double check your work before you save and proceed with the setup of virtual hosts.
 
 ~~~
 <VirtualHost *:80>
@@ -57,9 +57,9 @@ Enter the information below making sure to replace each instance of jdoe.test wi
 
 Save and close nano by pressing Ctrl+X, then type `Y` and hit Enter.
 
-We'll create another virtual hosts configuration file for our food truck/restraunt.  Run the command `sudo nano /etc/apache2/sites-available/food_truck.test.conf`
+We'll create another virtual hosts configuration file for our food truck/restaurant.  Run the command `sudo nano /etc/apache2/sites-available/food_truck.test.conf`
 
-Enter the information below making sure to replace each instance of food_truck.test with your personal test domain (there are seven occurences of the domain name).
+Enter the information below making sure to replace each instance of food_truck.test with your personal test domain (there are seven occurrences of the domain name).
 
 ```
 <VirtualHost *:80>
@@ -111,7 +111,7 @@ If this were a live web server and you used domain names that you have registere
 
 To edit the hosts file on a Mac, open a new Terminal window and run the command `sudo nano /etc/hosts`  You will need to enter your administrator password to be able to open and edit this file.
 
-Once the hosts file is open, enter the following two lines into the file replacing the `IP_ADDRESS` with the IP address of your virutal machine web server and the domains with your own domains.
+Once the hosts file is open, enter the following two lines into the file replacing the `IP_ADDRESS` with the IP address of your virtual machine web server and the domains with your own domains.
 
 ```shell
   IP_ADDRESS jdoe.test
@@ -164,6 +164,6 @@ Once you have enabled the hosts files on the VM Ubuntu Server and edited your ho
 
 Open your preferred browser and enter into the address bar `jdoe.test` and hit enter.  You should see your name displayed in both the Tab and in the browser viewport.
 
-Repeat with entering into the address bar `food_truck.test` and hit Enter.  You should see the name of your food truck/restraunt in the Tab and in the browser viewport.
+Repeat with entering into the address bar `food_truck.test` and hit Enter.  You should see the name of your food truck/restaurant in the Tab and in the browser viewport.
 
 If you both sites load as intended, great job!  You just installed and set up a fully functioning web server.

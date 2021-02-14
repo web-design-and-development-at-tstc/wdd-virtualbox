@@ -16,7 +16,7 @@ When it asks you to select your language use the up and down arrow keys and make
 
 ![Choose language screen during Ubuntu Server 20.04 installation](https://inspiringweb.org/vm_images/Ubuntu_Choose_Language.png)
  
-If you get a message that an updated version of the installer is now avaialble, use the up and down arrow keys to select Update to the new installer, and hit Enter.
+If you get a message that an updated version of the installer is now available, use the up and down arrow keys to select Update to the new installer, and hit Enter.
 
 ![Installer update available screen during Ubuntu Server 20.04 installation](https://inspiringweb.org/vm_images/Ubuntu_Update_Installer.png)
  
@@ -36,7 +36,7 @@ Next, it will ask about using an Ubuntu archive mirror.  It should default to th
 
 ![Configure Ubuntu archive mirror screen during Ubuntu Server 20.04 installation](https://inspiringweb.org/vm_images/Ubuntu_Configure_Mirror.png)
  
-Then, it wil ask to configure a guided storage layout or create a custom one, leave the defaults selected, use the arrow keys to navigate to Done and then hit enter.
+Then, it will ask to configure a guided storage layout or create a custom one, leave the defaults selected, use the arrow keys to navigate to Done and then hit enter.
 
 ![Guided storage configuration screen during Ubuntu Server 20.04 installation](https://inspiringweb.org/vm_images/Ubuntu_Guided_Storage_Configuration.png)
  
@@ -70,7 +70,7 @@ The installation is complete when you see a red banner at the top reading "Insta
 
 If you get a message about failed unmounting due to cdrom, go to **Machine -> Reset** and restart the VM.  You will see a bunch of text scrolling by as the server restarts.
 
-![Failed unmounting /cdroom screen during Ubuntu Server 20.04 reboot](https://inspiringweb.org/vm_images/Failed_Unmounting_cdrom.png)
+![Failed unmounting /cdrom screen during Ubuntu Server 20.04 reboot](https://inspiringweb.org/vm_images/Failed_Unmounting_cdrom.png)
 
 The reboot is finished when you see the line `[  OK  ] Reached target Cloud-init target.` and no more action is taking place on the screen.
 

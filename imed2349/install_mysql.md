@@ -8,7 +8,7 @@ Once it has identified everything needed to install, type `Y` and hit Enter.
 
 ## Secure MySQL Server
 
-Once MySQL Server is installed, lets secure it. Type the command `sudo mysql_secure_installation` and hit Enter.
+Once MySQL Server is installed, let's secure it. Type the command `sudo mysql_secure_installation` and hit Enter.
 
 It will ask if you want to use the VALIDATE PASSWORD COMPONENT.  Type 'Y' and hit enter.
 

@@ -8,7 +8,7 @@ To download VirtualBox, go to [https://www.virtualbox.org/wiki/Downloads](https:
 
 ### Firefox Download
 
-If you are using Firefox, you will get a dialog box asking "Would you like to save this file?"  Click the Save File button.  This will save the .exe file to your dsignated downloads folder.
+If you are using Firefox, you will get a dialog box asking "Would you like to save this file?"  Click the Save File button.  This will save the .exe file to your designated downloads folder.
 
 ![Firefox Download Dialog Box](https://inspiringweb.org/vm_images/Win_Firefox_Download.png)
 
@@ -150,11 +150,11 @@ This will open up a window where you can navigate to the folder where your ISO f
 
 Once you are back on the Optical Disk Selector screen, the ISO should be listed under Name.  If so, click the Choose button.
 
-![VM Optical Disk Selector showing choosen ISO](https://inspiringweb.org/vm_images/Win_VM_Optical_Disk_Selector_with_Choosen_ISO.png)
+![VM Optical Disk Selector showing chosen ISO](https://inspiringweb.org/vm_images/Win_VM_Optical_Disk_Selector_with_Choosen_ISO.png)
 
-This will take you back to the Select start-up disk dialog and the ISO choosen should be listed in the drop-down menu.  Make sure it is selected and then click the Start button.
+This will take you back to the Select start-up disk dialog and the ISO chosen should be listed in the drop-down menu.  Make sure it is selected and then click the Start button.
 
-![VirtualBox select optical disk file dialog box showing choosen ISO](https://inspiringweb.org/vm_images/Win_Select_start-up_disk_with_choosen_ISO.png)
+![VirtualBox select optical disk file dialog box showing chosen ISO](https://inspiringweb.org/vm_images/Win_Select_start-up_disk_with_choosen_ISO.png)
 
 This will initiate the installation process of the selected OS.
 

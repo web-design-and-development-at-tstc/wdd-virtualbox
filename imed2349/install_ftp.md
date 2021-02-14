@@ -78,6 +78,6 @@ Open up FileZilla and in the Quickconnect bar, enter your server's IP address fo
 
 You'll get a dialog box that says "This server does not support FTP over TLS.  If you continue, your password and files will be sent in clear over the internet."  For now, click __OK__.  In the next unit of the course, we'll set up TLS on our server.
 
-On the right hand side, you'll see that the only folder listed is the html folder which is located inside `/var/www`.  If you open this folder, you'll see an index.html file and the info.php file we created during the PHP installation.  Remember, anything you upload here will be live on your webserver.  Try uploading, creating, and editing folders and files within the web root directory (`/var/www/html`) to ensure permissions are working correctly.
+On the right hand side, you'll see that the only folder listed is the html folder which is located inside `/var/www`.  If you open this folder, you'll see an index.html file and the info.php file we created during the PHP installation.  Remember, anything you upload here will be live on your web server.  Try uploading, creating, and editing folders and files within the web root directory (`/var/www/html`) to ensure permissions are working correctly.
 
 Once you have finished testing, close your FileZilla.

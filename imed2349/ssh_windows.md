@@ -1,4 +1,4 @@
-# Using SSH to Connect to Server Remotely - Windows 10
+# Using SSH to Connect to a Server Remotely - Windows 10
 
 ## Verify SSH Status
 
@@ -20,7 +20,7 @@ You know you have been successfully connected to the remote Ubuntu Server when y
 
 In subsequent times logging in remotely to the server, you will enter `ssh USERNAME@IP_ADDRESS` and hit enter and it will immediately ask for your password.  Enter the password for the user on the VM not for your Windows user.
 
-To end the remote connection, type the word `exit` in the Terminal window and hit enter.  You'll see the message similar to below upong successful logout:
+To end the remote connection, type the word `exit` in the Terminal window and hit enter.  You'll see the message similar to below upon successful logout:
 
 ```shell
   logout
