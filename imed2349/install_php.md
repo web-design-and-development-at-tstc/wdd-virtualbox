@@ -27,10 +27,11 @@ If PHP was successfully installed, you will see output similar to:
       with Zend OPcache v7.4.14, Copyright (c), by Zend Technologies
 ```
 
-Next, run the following command:
+Next, run the following command (while I have split the command onto multiple lines so it's viewable, you should enter it all as a single command without hitting enter until you are ready to execute the whole command):
 
 ```shell
-sudo apt install php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-curl php7.4-gd php7.4-imagick php7.4-cli php7.4-dev php7.4-imap php7.4-mbstring php7.4-opcache php7.4-soap php7.4-zip php7.4-intl
+sudo apt install php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-curl php7.4-gd php7.4-imagick
+php7.4-cli php7.4-dev php7.4-imap php7.4-mbstring php7.4-opcache php7.4-soap php7.4-zip php7.4-intl
 ```
 
 After it has determined what all will be installed, it will ask if you want to continue.  Type `Y` and hit Enter.
@@ -41,17 +42,17 @@ Finally, run the command `sudo apt-get upgrade -y`.
 
 To get better performance out of our PHP module, we are going to update several values in the php.ini file.  To open the file, run the command `sudo nano /etc/php/7.4/apache2/php.ini`.
 
-Press Ctrl+W and type `upload_max_filesize`.  Then press enter.  This will go to the place in the file where this variable is set.  Change it's value to `32m`.
+Press Ctrl+W and type `upload_max_filesize`.  Then press enter.  This will go to the place in the file where this variable is set.  Change its value to `32m`.
 
-Press Ctrl+W and type `post_max_size`.  Then press enter.  This will go to the place in the file where this variable is set.  Change it's value to `48M`.
+Press Ctrl+W and type `post_max_size`.  Then press enter.  This will go to the place in the file where this variable is set.  Change its value to `48M`.
 
-Press Ctrl+W and type `memory_limit` .  Then press enter.  This will go to the place in the file where this variable is set.  Change it's value to `256M`.
+Press Ctrl+W and type `memory_limit` .  Then press enter.  This will go to the place in the file where this variable is set.  Change its value to `256M`.
 
-Press Ctrl+W and type `max_execution_time`.  Then press enter.  This will go to the place in the file where this variable is set.  Change it's value to `600`.
+Press Ctrl+W and type `max_execution_time`.  Then press enter.  This will go to the place in the file where this variable is set.  Change its value to `600`.
 
-Press Ctrl+W and type `max_input_vars`.  Then press enter.  This will go to the place in the file where this variable is set.  Remove the semi-colon (`;`) at the start of the line and change it's value to `3000`.
+Press Ctrl+W and type `max_input_vars`.  Then press enter.  This will go to the place in the file where this variable is set.  Remove the semi-colon (`;`) at the start of the line and change its value to `3000`.
 
-Press Ctrl+W and type `max_input_time`.  Then press enter.  It will take you to the first instance which ins information about this setting.  Press Ctrl+W again and then hit Enter.  This will go to the place in the file where this variable is set.  Change it's value to `1000`.
+Press Ctrl+W and type `max_input_time`.  Then press enter.  It will take you to the first instance which ins information about this setting.  Press Ctrl+W again and then hit Enter.  This will go to the place in the file where this variable is set.  Change its value to `1000`.
 
 Once you have set all 6 of these settings, press Ctrl+X, then type `Y`, and then press Enter.
 
