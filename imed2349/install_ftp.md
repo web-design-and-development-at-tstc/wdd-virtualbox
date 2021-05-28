@@ -74,10 +74,14 @@ For these configuration changes to take effect, we need to restart the FTP serve
 
 To make sure that our FTP server is working correctly, we are going to test vsftpd to see if we can log in with the user we created earlier.
 
-Open up FileZilla and in the Quickconnect bar, enter your server's IP address for the Host, `ftpuser` for the username, and `WDDrules20` for the password (if you didn't use this one, then you should use the password you set when you created the `ftpuser` account).  Then click __Quickconnect__.
+Open up Cyberduck (you might need to make the window bigger to show all of the toolbar buttons) and click on Open Connection.  Ensure the FTP (File Transfer Protocol) is selected in the dropdown menu at the top of the dialog window.  Then, enter your server's IP address for the Server, 21 for the Port, `ftpuser` for the username, and the password you assigned to the 'ftpuser' user for the password.  Make sure the checkbox for Anonymous login is unchecked and that SSH Private Key is set to none.  If you are on a Mac and you don't want the username and password saved to Keychain, uncheck the checkbox for "Add to Keychain".  Click the button __Connect__.
 
-You'll get a dialog box that says "This server does not support FTP over TLS.  If you continue, your password and files will be sent in clear over the internet."  For now, click __OK__.  In the next unit of the course, we'll set up TLS on our server.
+![Cyberduck Open Connection dialog window](https://inspiringweb.org/vm_images/Cyberduck_open_connection_dialog.png)
 
-On the right hand side, you'll see that the only folder listed is the html folder which is located inside `/var/www`.  If you open this folder, you'll see an index.html file and the info.php file we created during the PHP installation.  Remember, anything you upload here will be live on your web server.  Try uploading, creating, and editing folders and files within the web root directory (`/var/www/html`) to ensure permissions are working correctly.
+You'll get a dialog box that has the heading "Unsecured FTP connection" and that the password will be sent in plaintext.  For now, click __Continue__.  In the next unit of the course, we'll set up TLS on our server.
 
-Once you have finished testing, close your FileZilla.
+![Cyberduck Unsecured FTP connection warning](https://inspiringweb.org/vm_images/Cyberduck_unsecured_ftp_connection_warning.png)
+
+Once you are connected, you'll see a window that shows a list of directories and files, however currently the only folder listed is the html folder which is located inside `/var/www`.  If you open this folder, you'll see an index.html file and the info.php file we created during the PHP installation.  Remember, anything you upload here will be live on your web server.  Try uploading, creating, and editing folders and files within the web root directory (`/var/www/html`) to ensure permissions are working correctly.
+
+Once you have finished testing, click the Disconnect button in the toolbar and then close Cyberduck.
