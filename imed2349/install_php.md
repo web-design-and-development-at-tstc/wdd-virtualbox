@@ -14,24 +14,24 @@ After you have added both repositories, run the command `sudo apt-get update`.
 
 ## Install PHP
 
-Now that we have the PPA repositories set up, we can install PHP 7.4 onto our web server.  To do this, run the command `sudo apt install php7.4`.  When it asks if you want to continue, type `Y` and hit Enter.
+Now that we have the PPA repositories set up, we can install PHP 7.4 onto our web server.  To do this, run the command `sudo apt install php8.0 libapache2-mod-php8.0`.  When it asks if you want to continue, type `Y` and hit Enter.
 
 When it has finished running, to verify that the installation was successful, run the command `php -v`.
 
 If PHP was successfully installed, you will see output similar to:
 
 ```shell
-  PHP 7.4.14 (cli) (built: Jan  13 2021 08:04:47) ( NTS )
+  PHP 8.0.5 (cli) (built: May 3 2021 11:30:57) ( NTS )
   Copyright (c) The PHP Group
-  Zend Engine v3.4.0, Copyright (c) Zend Technologies
-      with Zend OPcache v7.4.14, Copyright (c), by Zend Technologies
+  Zend Engine v4.0.5, Copyright (c) Zend Technologies
+      with Zend OPcache v8.0.5, Copyright (c), by Zend Technologies
 ```
 
 Next, run the following command (while I have split the command onto multiple lines so it's viewable, you should enter it all as a single command without hitting enter until you are ready to execute the whole command):
 
 ```shell
-sudo apt install php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-curl php7.4-gd php7.4-imagick
-php7.4-cli php7.4-dev php7.4-imap php7.4-mbstring php7.4-opcache php7.4-soap php7.4-zip php7.4-intl
+sudo apt install php8.0-common php8.0-mysql php8.0-xml php8.0-xmlrpc php8.0-curl php8.0-gd php8.0-imagick
+php8.0-cli php8.0-dev php8.0-imap php8.0-mbstring php8.0-opcache php8.0-soap php8.0-zip php8.0-intl
 ```
 
 After it has determined what all will be installed, it will ask if you want to continue.  Type `Y` and hit Enter.
@@ -40,7 +40,7 @@ Finally, run the command `sudo apt-get upgrade -y`.
 
 ## Configure PHP
 
-To get better performance out of our PHP module, we are going to update several values in the php.ini file.  To open the file, run the command `sudo nano /etc/php/7.4/apache2/php.ini`.
+To get better performance out of our PHP module, we are going to update several values in the php.ini file.  To open the file, run the command `sudo nano /etc/php/8.0/apache2/php.ini`.
 
 Press Ctrl+W and type `upload_max_filesize`.  Then press enter.  This will go to the place in the file where this variable is set.  Change its value to `32m`.
 
