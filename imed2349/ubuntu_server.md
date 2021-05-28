@@ -2,7 +2,7 @@
 
 ## Download Ubuntu Server
 
-Visit the [Get Ubuntu Server](https://ubuntu.com/download/server) and click on the button "Option 2 - Manual server installation".  A green button will appear above the option buttons where you can download the current LTS-supported version of Ubuntu Server, currently Ubuntu Server 20.04.1 LTS.  Click that button to initiate the download.
+Visit the [Get Ubuntu Server](https://ubuntu.com/download/server) and click on the button "Option 2 - Manual server installation".  A green button will appear above the option buttons where you can download the current LTS-supported version of Ubuntu Server, currently Ubuntu Server 20.04.2 LTS.  Click that button to initiate the download.
 
 When running web servers, you don't want to be making major changes to your base OS to frequently, so it's best to pick a version that has long term support (LTS).  You'll notice that this version of Ubuntu Server will be supported until April of 2025.
 
@@ -64,7 +64,7 @@ The installation process will start and just let it run.
 
 ![Installing system screen during Ubuntu Server 20.04 installation](https://inspiringweb.org/vm_images/Ubuntu_Installing_System.png)
 
-The installation is complete when you see a red banner at the top reading "Install complete!"  Using your arrows, navigate to Reboot Now and hit enter.
+The installation is complete when you see a red banner at the top reading "Install complete!" AND you have the option to "Reboot Now".  Using your arrow keys, navigate to Reboot Now and hit enter.
 
 ![Install complete! screen during Ubuntu Server 20.04 installation](https://inspiringweb.org/vm_images/Ubuntu_Install_Complete.png)
 
